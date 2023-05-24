@@ -1,0 +1,122 @@
+body{
+    background-color: black;
+    
+    color: azure;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.img{
+    border-radius: 20%;
+}
+.grid{
+    display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin-top: 3rem;
+}
+.nametxt{
+    display: inline;
+    /* vertical-align: top; */
+    font-size: 1.8rem;
+}
+.email{
+  margin-left: 6rem ;
+  color: #f0f8ffdb;
+}
+.selfinfo{
+    margin-left: 5rem;
+}
+.meeting{
+    margin-top: 5rem;
+    font-size: 2.5rem;
+}
+.m2{
+    margin-top: 1rem;
+}
+.name{
+    color: rgba(235, 72, 8, 0.924);
+}
+.hbotton{
+    border-radius: 10px;
+    color: aliceblue;
+    height: 2rem;
+    width: 6rem;
+    background-color: #eb4808ec;
+    margin-top: 2rem;
+}
+.para1{
+    margin-top: 0;
+}
+.iconimg{
+    background-color: aliceblue;
+    margin-bottom: 1.5rem;
+}
+.fleximg{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    width: 5rem;
+    align-items: center;
+}
+.img{
+    height: 100%;
+}
+.menuimg{
+    background-color: aliceblue;
+}
+.menujusti{
+ margin-left: 80%;  
+}
+.bcir{
+    height: 3.8rem;
+    width: 3.8rem;
+    border-radius: 100%;
+    border: 2px solid aqua;
+position: relative;
+}
+
+.lcir{
+    height: 2.1rem;
+    width: 2.1rem;
+    border-radius: 100%;
+    border:2px solid #eb4808ec;
+    left: 70%;
+    bottom:50%;
+   position: absolute;
+}
+.boldc{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 100%;
+    background-color:  aqua;
+    margin-left: 30%;
+}
+.fexplain{
+    max-width: 15rem;
+    font-size: 1.3rem;
+    line-height:2rem;
+}
+.sexplain{
+    max-width: 16rem;
+    font-size: .85rem;
+}
+.aherg{
+    color:#eb4808ec ;
+}
+.moreinfor{
+    margin-left: 35%;
+}
+.spana{
+    margin-top: 30px;
+}
+.dimg{
+    background-color: #eb4808ec;
+}
+.himg{
+    background: white;
+}
+.texting{
+   margin-top: 80%;
+   margin-left: 50%;
+}
+.emailimg{
+    display: none;
+}

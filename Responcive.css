@@ -1,0 +1,244 @@
+@media screen and (min-width:26.562rem)and (max-width:51.25rem){
+    body{
+        background-color: black;
+        position: relative;
+        color: azure;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .img{
+        border-radius: 20%;
+    }
+    .grid{
+        display: grid;
+      grid-template-columns:1fr 1fr .2fr;
+      margin-top: 3rem;
+    }
+    .nametxt{
+        display: inline;
+        /* vertical-align: top; */
+        font-size: 1.8rem;
+    }
+    .email{
+     display: none;
+    }
+    .selfinfo{
+        margin-left: 5rem;
+    }
+    .meeting{
+        margin-top: 5rem;
+        font-size: 2.5rem;
+    }
+    .m2{
+        margin-top: 1rem;
+    }
+    .name{
+        color: rgba(235, 72, 8, 0.924);
+        margin-right: 60%;
+        margin-top: 1rem;
+        display: block;
+    }
+    .hbotton{
+        border-radius: 10px;
+        color: aliceblue;
+        height: 2rem;
+        width: 6rem;
+        background-color: #eb4808ec;
+        margin-top: 2rem;
+    }
+    .para1{
+        margin-top: 0;
+    }
+    .iconimg{
+        background-color: aliceblue;
+        margin-bottom: 1.5rem;
+        margin-left: .5rem;
+    }
+    .fleximg{
+        margin-top: 5rem;
+        display: flex;
+        flex-direction: row;
+        width: 2rem;
+        align-items: center;
+        justify-content: space-between; 
+        justify-self: start;
+        margin-right: 11rem;
+    }
+    .img{
+        height: 90%;
+      
+    }
+    .centerimg{
+        align-self: end;
+    }
+    .menuimg{
+        background-color: aliceblue;
+    }
+    .menujusti{
+     margin-left:0%;  
+    }
+    .bcir{
+        height: 3.8rem;
+        width: 3.8rem;
+        border-radius: 100%;
+        border: 2px solid aqua;
+    position: relative;
+    margin-left: 2rem;
+    }
+    
+    .lcir{
+        height: 2.1rem;
+        width: 2.1rem;
+        border-radius: 100%;
+        border:2px solid #eb4808ec;
+        left: 70%;
+        bottom:50%;
+       position: absolute;
+    }
+    .boldc{
+        height: 2rem;
+        width: 2rem;
+        border-radius: 100%;
+        background-color:  aqua;
+        margin-left: 30%;
+    }
+    .fexplain{
+        max-width: 15rem;
+        font-size: 1.3rem;
+        line-height:2rem;
+    }
+    .sexplain{
+        max-width: 16rem;
+        font-size: .85rem;
+    }
+    .aherg{
+        color:#eb4808ec ;
+    }
+    .moreinfor{
+        margin-left: 35%;
+       
+         }
+         .willshowen{
+            position: absolute;
+            left: 60%;
+            background-color: #000000ee;
+            text-align: center;
+            display: none;
+            width: 21rem;
+            height: 34rem;
+         }
+         /* .hidden{
+            display: none;
+         } */
+    .spana{
+        margin-top: 30px;
+    }
+    .dimg{
+        background-color: #eb4808ec;
+    }
+    .himg{
+        background: white;
+    }
+    .texting{
+       margin-top: 40%;
+       margin-left: 50%;
+    }
+    .emailimg{
+        display: inline;
+    }
+}
+@media(max-width:425px){
+    .menuimg{
+display: none;
+    }
+    .email{
+        display: none;
+    }
+    .nametxt{
+        font-size: 2.3rem;
+    }
+    .grid{
+        display: grid;
+      grid-template-columns:1fr;
+      grid-template-rows: .7fr 1fr 1fr;
+      margin-top: 3rem;
+    }
+    .emailimg{
+        display: block;
+    }
+    .moreinfor{
+      
+        margin: 0;
+    }
+    .bcir{
+        margin-top: 1rem;
+        height: 8rem;
+        width: 8rem;
+        border-radius: 100%;
+        border: 2px solid aqua;
+    position: relative;
+    margin-left: 40%;
+    }
+    
+    .lcir{
+        height: 4rem;
+        width: 4rem;
+        border-radius: 100%;
+        border:2px solid #eb4808ec;
+        left: 70%;
+        bottom:50%;
+       position: absolute;
+    }
+    .boldc{
+        height: 4rem;
+        width:4rem;
+        border-radius: 100%;
+        background-color:  aqua;
+        margin-left: 30%;
+    }
+    .willshowen{
+        text-align: center;
+    }
+    .sexplain{
+       max-width: 100%;
+    }
+    .fexplain{
+        font-size: 1.7rem;
+        line-height: 120%;
+        max-width: 100%;
+     }
+     .selfinfo{
+        text-align: center;
+     }
+     .meeting , .para1 ,.name{
+        font-size: 2rem;
+     }
+     .hbotton{
+        font-size: 1.3rem;
+        width: 10rem;
+        height: 4rem;
+     }
+   
+    .fleximg {
+        width: 100%;
+        /* margin-top: 5rem; */
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* width: 5rem; */
+        /* align-items: center; */
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .iconimg{
+        width: 50px;
+    }
+    .name,.sexplain{
+        font-size: 1.2rem;
+    }
+    .aherg{
+        font-size: 1rem;
+    }
+    .texting {
+         margin-top: 7%; 
+        margin-left: 74%;
+    }
+}
